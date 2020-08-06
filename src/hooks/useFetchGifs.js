@@ -9,7 +9,6 @@ import { getGifs } from "../helpers/getGifs"
         loading: true
     })
 
-    
     useEffect( () =>{
         
         getGifs( category )
